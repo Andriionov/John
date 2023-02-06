@@ -76,6 +76,9 @@ header nav li a{
 .main_banner .container{
     max-width: 855px;
 }
+.main_blog .container{
+    max-width: 681px;
+}
 header nav ul li:hover{
     transform: scale(2);
 }
@@ -104,21 +107,113 @@ main section div article p{
     font-style: normal;
     font: 500 20px/29px 'heebomedium';
     font-size: 20px;
-  
-
     color: #FFFFFF;
     text-decoration: none
 }
+.feautured_works{
+    padding: 15px 0px 22px 0px;
+    Font:400 22px/60px 'heeboregular';
+    font-style: normal;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.fut_w_container{
+    max-width: 855px;
+    height: 868px;
+    margin: auto;
+}
+.justify_left{
+    justify-content: left;
+}
+.inline_bl{
+    display: inline-block;
+    left: 0;
+}
+.left {
+    float: left;
+    padding: 0 19px 20px 0;
+}
+.d_block{
+    display: block;
+}
+.works{
+    width:594px ;
+height: 318px;
+background-color: aqua;
+}
+.f_left{
+    float: left;
+}
 
 
+.year_wr{
+    display: inline-block;
+    margin-top: 20px;
+width: 62px;
+max-height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.year_txt{
 
+    font-family: 'heeboregular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 333% */
 
+    color: #FFFFFF;
+text-align: center;
+}
+.line{
+    width: 855px;
+    border-bottom: 1px solid #E0E0E0;
+   margin: 10px 0 30px;
+    padding: 0 0 30px;
+}
+.w_image{
+    padding-right: 18px;
+    width: 246px;
+    height: 180px;
+}
+section div h3{
+    display:block;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+section div h4{
+    display: inline-block;
+    font-family: 'heeboregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 26px;
+    /* Light */
+    color: #8695A4;
 
-
-
-
-
-
+}
+.fut_work_cont{
+    width: 855px;
+    height: 180px;
+}
+section div p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
 footer{
     width: 1152px; height: 182px;  margin: auto;
 }
@@ -141,4 +236,46 @@ footer div p{
     line-height: 21px;
     text-align: center;
     color: #21243D;
+}
+
+main section h1{
+    font-style: normal;
+    font: 700 44px/60px'heebobold' ;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.main_blog{
+    padding-top: 106px;
+    padding-bottom: 53px;
+
+}
+.line_blog {
+    height: 21px;
+    border-right: 1px solid black;
+    max-width: 1px;
+
+}
+.date{
+    padding-bottom: 15px;
+
+}
+.blog_dmy{
+    padding-right: 20px;
+    padding-bottom: 15px
+
+}
+.description{
+    font:400  16px/24px'heeboregular';
+    font-style: normal;
+
+    font-size: 16px;
+
+
+    /* Dark Color */
+
+    color: #21243D;
+
+}
+.interactions{
+    padding-bottom:16px
 }
